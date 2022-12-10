@@ -61,7 +61,7 @@ func Day10Part2(input string) string {
 		if math.Abs(float64(xValue-currX)) < 2 {
 			result += "#"
 		} else {
-			result += "."
+			result += " "
 		}
 
 		if currX == 39 {
